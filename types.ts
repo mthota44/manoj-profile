@@ -12,6 +12,7 @@ export interface InterviewPost {
     role: string;
     experience: string;
     created_at: string;
+    user_id?: string;
 }
   
 export interface Skill {
